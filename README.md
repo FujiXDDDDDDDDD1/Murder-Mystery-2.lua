@@ -48,7 +48,7 @@ GunHighlight.OutlineTransparency = 1;
 GunHighlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop;
 GunHighlight.RobloxLocked = true;
 
-GunHandleAdornment.Color3 = Color3.fromRGB(255, 0, 0);
+GunHandleAdornment.Color3 = Color3.fromRGB(0, 239, 255);
 GunHandleAdornment.Transparency = 0.2;
 GunHandleAdornment.Adornee = Workspace:FindFirstChild("GunDrop");
 GunHandleAdornment.AlwaysOnTop = true;
@@ -136,7 +136,7 @@ end);
 --<>----<>----<>----<>----<>----<>----<>--
 
 --<>----<>----<>----<>----<>----<>----<>--
-local Window = Library:CreateWindow({Title = "Fu Kang Hub V2"});
+local Window = Library:CreateWindow({Title = "Fu Kang Hub"});
 local Tab1 = Window:CreateTab({Title = "Main", ScrollBar = false});
 local Tab2 = Window:CreateTab({Title = "Economy", ScrollBar = false});
 local Tab3 = Window:CreateTab({Title = "Roles", ScrollBar = false});
